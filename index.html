@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="hy">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Code Academy | Դարձիր Տեխնոլոգիական Առաջնորդ</title>
+    <meta name="description"
+        content="7 Ամիս: Բազայից մինչև Էլիտա: Դարձիր Տեխնոլոգիական Առաջնորդ Smart Code Academy-ի ինտենսիվ Բութքեմփի միջոցով: Երաշխավորված աշխատանք լավագույն շրջանավարտների համար:">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Noto+Sans+Armenian:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <noscript>
+        <style>
+            .gsap-fade-up {
+                opacity: 1 !important;
+                transform: none !important;
+            }
+
+            #hero-canvas {
+                display: none !important;
+            }
+        </style>
+    </noscript>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header id="header" class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <img class="logo-img" src="./images/logo.png" alt="Smart Code Academy Logo" title="Logo">
+            </div>
+            <a href="#registration" class="btn btn-primary btn-glow">Դիմել Հարցազրույցի</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <canvas id="hero-canvas"></canvas>
+        <div class="hero-bg-pattern"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title gsap-fade-up">
+                    Տեխնոլոգիական Գիտելիքների Համալիր Ծրագիր, <span class="text-yellow">Երաշխավորված աշխատանքով</span>
+                </h1>
+                <p class="hero-subtitle gsap-fade-up" style="animation-delay: 0.1s;">
+                    280 ժամ ինտենսիվ Բութքեմփ. Բազա + մասնագիտացում: Խիստ ընդունելություն հարցազրույցով, ամենամսյա շեմեր
+                    և երաշխավորված աշխատանք լավագույն շրջանավարտների համար:
+                </p>
+                <div class="hero-cta gsap-fade-up" style="animation-delay: 0.2s;">
+                    <a href="#registration" class="btn btn-primary btn-large btn-glow">Անցնել Հարցազրույցը</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why This Bootcamp -->
+    <section id="why" class="why section-padding">
+        <div class="container">
+            <div class="grid grid-3">
+                <div class="feature-card gsap-fade-up">
+                    <div class="feature-icon">
+                        <i data-lucide="git-merge"></i>
+                    </div>
+                    <h3 class="feature-title">3 Մասնագիտացում: 1 Ծրագիր:</h3>
+                    <p class="feature-text">Բոլորը սովորում են հսկայական բազա, ապա մասնագիտանում են DevOps, Backend կամ
+                        ML/AI ուղղություններով՝ հիմնված առաջադիմության և նախասիրության վրա:</p>
+                </div>
+                <div class="feature-card gsap-fade-up" style="animation-delay: 0.1s;">
+                    <div class="feature-icon">
+                        <i data-lucide="filter"></i>
+                    </div>
+                    <h3 class="feature-title">Խիստ Որակի Վերահսկողություն:</h3>
+                    <p class="feature-text">Ամենամսյա քննություններ՝ անցողիկ/անբավարար շեմերով: Մենք խորապես ներդրում
+                        ենք անում միայն մոտիվացված ուսանողների մեջ, ովքեր ապացուցում են, որ պատրաստ են աճել:</p>
+                </div>
+                <div class="feature-card gsap-fade-up" style="animation-delay: 0.2s;">
+                    <div class="feature-icon">
+                        <i data-lucide="award"></i>
+                    </div>
+                    <h3 class="feature-title">Երաշխավորված Աշխատանք:</h3>
+                    <p class="feature-text">Լավագույն արդյունքներ ցուցաբերած շրջանավարտները կստանան աշխատանքի ուղղակի
+                        առաջարկներ մեր ցանցի առաջատար ընկերություններից:</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Roadmap -->
+    <section id="roadmap" class="roadmap section-padding">
+        <div class="container">
+            <h2 class="section-title center gsap-fade-up">Ուսուցման <span class="text-yellow">Ճանապարհային
+                    Քարտեզը</span></h2>
+
+            <div class="roadmap-container">
+                <!-- Base Path -->
+                <div class="roadmap-base gsap-fade-up">
+                    <div class="roadmap-line"></div>
+                    <div class="roadmap-content-box">
+                        <h3 class="roadmap-month">Ամիսներ 1-3</h3>
+                        <h4 class="roadmap-title">Բազային Գիտելիքներ Բոլորի Համար</h4>
+                        <div class="roadmap-tech">
+                            <span>OS</span> • <span>Bash</span> • <span>Python</span> • <span>OOP</span> •
+                            <span>Ալգորիթմներ</span> • <span>HTML/CSS/JS</span> • <span>Ավտոմատացում</span> •
+                            <span>LangChain</span>
+                        </div>
+                    </div>
+                    <div class="roadmap-gate">
+                        <div class="gate-icon"><i data-lucide="lock"></i></div>
+                        <p>Ամենամսյա Քննություններ և Անցողիկ Շեմ</p>
+                    </div>
+                </div>
+
+                <!-- Split Path -->
+                <div class="roadmap-split">
+                    <div class="split-controls">
+                        <button class="split-tab active" data-target="devops">DevOps</button>
+                        <button class="split-tab" data-target="backend">Backend</button>
+                        <button class="split-tab" data-target="mlai">ML / AI</button>
+                    </div>
+
+                    <div class="split-content-container">
+                        <!-- DevOps Path -->
+                        <div class="split-pane active" id="pane-devops">
+                            <div class="vertical-timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h5>Ամիս 4. Ենթակառուցվածքներ և Ցանցեր</h5>
+                                        <p>Ցանցեր (OSI), Linux Ադմինիստրատորի Խորացված Դասընթաց:</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h5>Ամիս 5. Կոնտեյներացում</h5>
+                                        <p>Docker, Docker Compose, Kubernetes (K8s) հիմունքներ:</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h5>Ամիս 6. IaC և Ավտոմատացում</h5>
+                                        <p>Terraform, Ansible, AWS հիմունքներ:</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h5>Ամիս 7. CI/CD և Ավարտական Նախագիծ</h5>
+                                        <p>Jenkins, GitLab CI, GitHub Actions: Ավարտական Դիպլոմային Նախագիծ:</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Backend Path -->
+                        <div class="split-pane" id="pane-backend">
+                            <div class="vertical-timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h5>Ամիս 4. Տվյալների Բազաներ</h5>
+                                        <p>Խորացված SQL, PostgreSQL, MongoDB, Redis:</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h5>Ամիս 5. API և Ֆրեյմվորքներ</h5>
+                                        <p>FastAPI, Flask, RESTful API-ներ, GraphQL հիմունքներ:</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h5>Ամիս 6. Խորացված Backend</h5>
+                                        <p>Django REST Framework, Միկրոսերվիսային ճարտարապետություն, Docker:</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h5>Ամիս 7. Ճարտարապետություն և Նախագիծ</h5>
+                                        <p>Համակարգի Նախագծում, Անվտանգություն: Ավարտական Դիպլոմային Նախագիծ:</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ML/AI Path -->
+                        <div class="split-pane" id="pane-mlai">
+                            <div class="vertical-timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h5>Ամիս 4. Մաթեմատիկական Հիմք</h5>
+                                        <p>Գծային Հանրահաշիվ, Մատրիցներ, Հավանականություն, Վիճակագրություն, Թվերի
+                                            Տեսություն:</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h5>Ամիս 5. Դասական ML</h5>
+                                        <p>Scikit-Learn, Ռեգրեսիա, Դասակարգում, Կլաստերիզացիա:</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h5>Ամիս 6. Խորը Ուսուցում (Deep Learning)</h5>
+                                        <p>Նեյրոնային Ցանցեր, PyTorch, TensorFlow հիմունքներ:</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h5>Ամիս 7. Խորացված AI և Նախագիծ</h5>
+                                        <p>NLP, Համակարգչային Տեսողության հիմունքներ: Ավարտական Դիպլոմային Նախագիծ:</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- For Whom Section -->
+    <section id="audience" class="audience section-padding dark-gradient">
+        <div class="container">
+            <h2 class="section-title center gsap-fade-up">Ում Համար Է Նախատեսված Այս <span
+                    class="text-yellow">Ծրագիրը:</span></h2>
+
+            <div class="grid grid-3">
+                <div class="audience-card gsap-fade-up">
+                    <div class="audience-icon"><i data-lucide="rocket"></i></div>
+                    <h3 class="audience-title">Մոտիվացված Սկսնակների</h3>
+                    <p class="audience-text">Ուժեղ տրամաբանական մտածողությամբ, բազային մաթեմատիկական հմտություններով և
+                        տեխնոլոգիական ապագայի հստակ տեսլականով:</p>
+                </div>
+                <div class="audience-card gsap-fade-up" style="animation-delay: 0.1s;">
+                    <div class="audience-icon"><i data-lucide="compass"></i></div>
+                    <h3 class="audience-title">Մասնագիտությունը Փոխողների</h3>
+                    <p class="audience-text">Փնտրում են հիմնարար, այլ ոչ մակերեսային գիտելիքների բազա՝ լուրջ կարիերա
+                        կառուցելու համար:</p>
+                </div>
+                <div class="audience-card gsap-fade-up" style="animation-delay: 0.2s;">
+                    <div class="audience-icon"><i data-lucide="search"></i></div>
+                    <h3 class="audience-title">Կրտսեր Ծրագրավորողների (Junior)</h3>
+                    <p class="audience-text">Ցանկանում են համակարգել առկա գիտելիքները և մասնագիտանալ մեծ պահանջարկ
+                        ունեցող ոլորտներում:</p>
+                </div>
+            </div>
+
+            <div class="requirements-box gsap-fade-up">
+                <h4 class="req-title">Հիմնական Պահանջներ.</h4>
+                <ul class="req-list">
+                    <li><i data-lucide="check-circle" class="text-yellow"></i> Շաբաթական 20+ ժամ տրամադրելու
+                        հնարավորություն</li>
+                        <li><i data-lucide="check-circle" class="text-yellow"></i> Աշխատասիրություն</li>
+                    <li><i data-lucide="check-circle" class="text-yellow"></i> Տրամաբանություն</li>
+                    <li><i data-lucide="check-circle" class="text-yellow"></i> Սեր դեպի տեխնոլոգիաները</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Process -->
+    <section id="admission" class="admission section-padding">
+        <div class="container">
+            <h2 class="section-title center gsap-fade-up">Ընդունելության <span class="text-yellow">Գործընթացը</span>
+            </h2>
+
+            <div class="stepper">
+                <div class="step gsap-fade-up">
+                    <div class="step-icon"><i data-lucide="file-check-2"></i></div>
+                    <div class="step-content">
+                        <h3 class="step-title">Քայլ 1. Առցանց Հայտ</h3>
+                        <p class="step-text">Լրացրեք կարճ մոտիվացիոն հայտ՝ մանրամասնելով Ձեր փորձը և նպատակները:</p>
+                    </div>
+                    <div class="step-line"></div>
+                </div>
+
+                <div class="step gsap-fade-up" style="animation-delay: 0.1s;">
+                    <div class="step-icon"><i data-lucide="message-square"></i></div>
+                    <div class="step-content">
+                        <h3 class="step-title">Քայլ 2. Անհատական Հարցազրույց</h3>
+                        <p class="step-text">Տրամաբանության, հանձնառության և ժամանակի հասանելիության գնահատում մեր
+                            առաջատար հրահանգիչների հետ:</p>
+                    </div>
+                    <div class="step-line strong"></div>
+                </div>
+
+                <div class="step gsap-fade-up" style="animation-delay: 0.2s;">
+                    <div class="step-icon"><i data-lucide="users"></i></div>
+                    <div class="step-content">
+                        <h3 class="step-title">Քայլ 3. Խմբի Ընդունելություն</h3>
+                        <p class="step-text">Ընդունվում են միայն այն ուսանողները, ովքեր հաջողությամբ անցնում են
+                            հարցազրույցը և տրամաբանության թեստերը:</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructors Section -->
+    <section id="instructors" class="instructors section-padding dark-gradient">
+        <div class="container">
+            <h2 class="section-title center gsap-fade-up"> Ավագ <span class="text-yellow">Մասնագետներ</span></h2>
+
+            <div class="instructors-grid">
+                <!-- Instructor 1 -->
+                <div class="instructor-card gsap-fade-up">
+                    <div class="instructor-image">
+                        <img src="images/zaqaryan.png" alt="Ալբերտ Զաքարյան" loading="lazy">
+                    </div>
+                    <div class="instructor-info">
+                        <h3 class="instructor-name">Ալբերտ Զաքարյան</h3>
+                        <p class="instructor-role">Python / Machine Learning Engineer</p>
+                        <p class="instructor-exp"><span class="text-yellow">8+ Տարվա</span> Փորձ Ոլորտում</p>
+                    </div>
+                </div>
+
+                <!-- Instructor 2 -->
+                <div class="instructor-card gsap-fade-up" style="animation-delay: 0.1s;">
+                    <div class="instructor-image">
+                        <img src="images/asatryan.png" alt="Ալբերտ Ասատրյան" loading="lazy">
+                    </div>
+                    <div class="instructor-info">
+                        <h3 class="instructor-name">Ալբերտ Ասատրյան</h3>
+                        <p class="instructor-role">Python / Machine Learning Engineer</p>
+                        <p class="instructor-exp"><span class="text-yellow">8+ Տարվա</span> Փորձ Ոլորտում</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq section-padding">
+        <div class="container">
+            <h2 class="section-title center gsap-fade-up">Հաճախ Տրվող <span class="text-yellow">Հարցեր</span></h2>
+
+            <div class="accordion-container gsap-fade-up">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Ի՞նչ կլինի, եթե չհանձնեմ անցողիկ շեմի թեստը:
+                        <i data-lucide="chevron-down" class="accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            Եթե ձախողեք ամենամսյա շեմի թեստը, Ձեզ կտրվի վերահանձնելու մեկ հնարավորություն կարճ
+                            կրկնության շրջանից հետո: Եթե վերահանձնումը նույնպես ձախողվի, Դուք կհեռացվեք ծրագրից: Մենք
+                            պահպանում ենք այս խիստ չափանիշները՝ մեր շրջանավարտների որակն ապահովելու համար:
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Կարո՞ղ եմ սա համատեղել աշխատանքի կամ համալսարանի հետ:
+                        <i data-lucide="chevron-down" class="accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            Այո, բայց դա պահանջում է ծայրահեղ կարգապահություն: Ծրագիրը պահանջում է շաբաթական խիստ
+                            նվազագույնը 15+ ժամ կենտրոնացած ուսուցում և գործնական աշխատանք: Մեր հաջողակ ուսանողներից
+                            շատերը կարողանում են այն համատեղել լրիվ դրույքով աշխատանքի հետ, բայց դա դժվար է:
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Ավարտելիս տրվո՞ւմ է վկայական:
+                        <i data-lucide="chevron-down" class="accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            Այո: Բոլոր շեմերի թեստերը և ավարտական դիպլոմային նախագիծը հաջողությամբ ավարտելուց հետո Դուք
+                            կստանաք ԿԳՄՍՆ (Կրթության նախարարության) կողմից հաստատված դիպլոմ՝ Smart Code Academy-ի էլիտար
+                            վկայականի հետ միասին:
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Ինչպիսի՞ աշխատանք է երաշխավորվում:
+                        <i data-lucide="chevron-down" class="accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            Լավագույն արդյունքներ ցուցաբերած շրջանավարտներին (խմբի լավագույն 15%-ին) երաշխավորվում են
+                            հարցազրույցներ և աշխատանքի ուղղակի առաջարկներ մեր գործընկեր տեխնոլոգիական ընկերությունների
+                            ցանցից: Պաշտոնները տատանվում են Junior-ից մինչև Mid-level՝ կախված Ձեր մասնագիտացումից և
+                            ավարտական նախագծի որակից:
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="registration" class="registration section-padding">
+        <div class="container">
+            <div class="registration-grid">
+                <div class="registration-form-box gsap-fade-up">
+                    <h2 class="section-title">Դիմել <span class="text-yellow">Հիմա</span></h2>
+                    <p class="form-subtitle">Կատարեք առաջին քայլը տեխնոլոգիական առաջնորդ դառնալու ճանապարհին:</p>
+
+                    <form class="apply-form">
+                        <div class="form-group">
+                            <label for="name">Անուն Ազգանուն</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Հեռախոսահամար</label>
+                            <input type="tel" id="phone" placeholder="+374 (00) 000-000" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Էլ. փոստ</label>
+                            <input type="text" id="email" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full btn-glow">Ուղարկել Հայտը</button>
+                    </form>
+                </div>
+
+                <div class="registration-badge-box gsap-fade-up" style="animation-delay: 0.1s;">
+                    <div class="cert-badge">
+                        <img class="coat" src="./images/coat1.png" alt="Armenian coat">
+                        <h3 class="badge-title">Ծրագիրը երաշխավորված է ԿԳՄՍ նախարարության կողմից</h3>
+                        <p class="badge-text">Smart Code Academy-ի ուսանողները կարող են օգտվել սոցիալական ծախսի փոխհատուցումից՝ եկամտահարկի վերադարձի տեսքով՝ տարեկան մինչև 100,000 ՀՀ դրամի չափով՝ համաձայն ՀՀ օրենսդրությամբ սահմանված կարգի։</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <img class="logo-img" src="./images/logo.png" alt="Smart Code Academy Logo" title="Logo">
+                <p class="copyright">© 2026 Smart Code Academy: Բոլոր իրավունքները պաշտպանված են:</p>
+            </div>
+            <div class="footer-contact">
+                <a href="tel:+37455123456"><i data-lucide="phone" style="width:16px;height:16px;vertical-align:middle;margin-right:6px;"></i>+374 (41) 43-53-44</a>
+                <a href="mailto:hello@smartcode.academy"><i data-lucide="mail" style="width:16px;height:16px;vertical-align:middle;margin-right:6px;"></i>support@smartcode.am</a>
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.facebook.com/SmartCode.am/" target="_blank" aria-label="Facebook"><i data-lucide="facebook" class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/smartcode.am/" target="_blank" aria-label="Instagram"><i data-lucide="instagram" class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/smarttechnologyllc/" target="_blank" aria-label="LinkedIn"><i data-lucide="linkedin" class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.tiktok.com/@smartcode.am" target="_blank" aria-label="Tiktok"><i data-lucide="tiktok" class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="analytics-config.js"></script>
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.39/dist/lenis.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
