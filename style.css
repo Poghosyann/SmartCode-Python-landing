@@ -679,42 +679,6 @@ a { text-decoration: none; color: inherit; }
     width: 80px;
 }
 
-.badge-icon {
-    width: 48px;
-    height: 48px;
-    margin-bottom: 1rem;
-}
-
-.license-number {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background: rgba(0,0,0,0.05);
-    border-radius: 20px;
-    font-family: monospace;
-    font-size: 0.9rem;
-}
-
-.partners-title {
-    color: var(--color-text-muted);
-    margin-bottom: 1.5rem;
-}
-
-.partner-logos {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.partner-logo {
-    padding: 1rem 1.5rem;
-    background: var(--color-bg-light);
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    border-radius: 4px;
-    font-weight: 600;
-    color: var(--color-text-muted);
-}
-
 /* Footer */
 .footer {
     border-top: 1px solid rgba(0, 0, 0, 0.05);

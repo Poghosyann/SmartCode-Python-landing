@@ -308,13 +308,13 @@
 
             const innerGeometry = new THREE.IcosahedronGeometry(12, 8);
             const innerMaterial = new THREE.PointsMaterial({
-                size: 0.08,
+                size: 0.06,
                 color: 0xF59E0B,
                 transparent: true,
                 opacity: 0.9,
             });
 
-            const outerGeometry = new THREE.IcosahedronGeometry(14, 5);
+            const outerGeometry = new THREE.IcosahedronGeometry(14, 7);
             const outerMaterial = new THREE.PointsMaterial({
                 size: 0.1,
                 color: 0x4B5563,
