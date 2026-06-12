@@ -40,7 +40,7 @@
             <div class="logo">
                 <img class="logo-img" src="./images/logo.png" alt="Smart Code Academy Logo" title="Logo">
             </div>
-            <a href="#registration" class="btn btn-primary btn-glow">Դիմել Հարցազրույցի</a>
+            <a href="#registration" class="btn btn-primary btn-glow magnetic-btn">Դիմել Հարցազրույցի</a>
         </div>
     </header>
 
@@ -54,11 +54,11 @@
                     Տեխնոլոգիական Գիտելիքների Համալիր Ծրագիր, <span class="text-yellow">Երաշխավորված աշխատանքով</span>
                 </h1>
                 <p class="hero-subtitle gsap-fade-up" style="animation-delay: 0.1s;">
-                    280 ժամ ինտենսիվ Բութքեմփ. Բազա + մասնագիտացում: Խիստ ընդունելություն հարցազրույցով, ամենամսյա շեմեր
-                    և երաշխավորված աշխատանք լավագույն շրջանավարտների համար:
+                    7-ամսյա ինտենսիվ ծրագիր: Ընդունելությունը հարցազրույցով, ամենամսյա շեմեր
+                    և երաշխավորված աշխատանք բավարար առաջադիմություն ունեցող բոլոր շրջանավարտների համար:
                 </p>
                 <div class="hero-cta gsap-fade-up" style="animation-delay: 0.2s;">
-                    <a href="#registration" class="btn btn-primary btn-large btn-glow">Անցնել Հարցազրույցը</a>
+                    <a href="#registration" class="btn btn-primary btn-large btn-glow magnetic-btn">Անցնել Հարցազրույցը</a>
                 </div>
             </div>
         </div>
@@ -67,16 +67,15 @@
     <!-- Why This Bootcamp -->
     <section id="why" class="why section-padding">
         <div class="container">
-            <div class="grid grid-3">
-                <div class="feature-card gsap-fade-up">
+            <div class="bento-grid">
+                <div class="feature-card bento-card-main tilt-card gsap-fade-up">
                     <div class="feature-icon">
-                        <i data-lucide="git-merge"></i>
+                        <i data-lucide="layers"></i>
                     </div>
-                    <h3 class="feature-title">3 Մասնագիտացում: 1 Ծրագիր:</h3>
-                    <p class="feature-text">Բոլորը սովորում են հսկայական բազա, ապա մասնագիտանում են DevOps, Backend կամ
-                        ML/AI ուղղություններով՝ հիմնված առաջադիմության և նախասիրության վրա:</p>
+                    <h3 class="feature-title">1 Համալիր և Խորացված Ծրագիր:</h3>
+                    <p class="feature-text">Ուսանողները սովորում են հսկայական բազա, որից հետո խորանում են Backend ծրագրավորման և Մեքենայական Ուսուցման (ML/AI) մեջ՝ ստանալով ամբողջական գիտելիքների փաթեթ մեկ ծրագրով:</p>
                 </div>
-                <div class="feature-card gsap-fade-up" style="animation-delay: 0.1s;">
+                <div class="feature-card tilt-card gsap-fade-up" style="animation-delay: 0.1s;">
                     <div class="feature-icon">
                         <i data-lucide="filter"></i>
                     </div>
@@ -84,13 +83,12 @@
                     <p class="feature-text">Ամենամսյա քննություններ՝ անցողիկ/անբավարար շեմերով: Մենք խորապես ներդրում
                         ենք անում միայն մոտիվացված ուսանողների մեջ, ովքեր ապացուցում են, որ պատրաստ են աճել:</p>
                 </div>
-                <div class="feature-card gsap-fade-up" style="animation-delay: 0.2s;">
+                <div class="feature-card tilt-card gsap-fade-up" style="animation-delay: 0.2s;">
                     <div class="feature-icon">
                         <i data-lucide="award"></i>
                     </div>
                     <h3 class="feature-title">Երաշխավորված Աշխատանք:</h3>
-                    <p class="feature-text">Լավագույն արդյունքներ ցուցաբերած շրջանավարտները կստանան աշխատանքի ուղղակի
-                        առաջարկներ մեր ցանցի առաջատար ընկերություններից:</p>
+                    <p class="feature-text">Բավարար առաջադիմություն ապահոված բոլոր շրջանավարտները կստանան աշխատանքի ուղղակի առաջարկ flex-flow.ai ընկերության կողմից:</p>
                 </div>
             </div>
         </div>
@@ -121,115 +119,35 @@
                     </div>
                 </div>
 
-                <!-- Split Path -->
-                <div class="roadmap-split">
-                    <div class="split-controls">
-                        <button class="split-tab active" data-target="devops">DevOps</button>
-                        <button class="split-tab" data-target="backend">Backend</button>
-                        <button class="split-tab" data-target="mlai">ML / AI</button>
-                    </div>
-
-                    <div class="split-content-container">
-                        <!-- DevOps Path -->
-                        <div class="split-pane active" id="pane-devops">
-                            <div class="vertical-timeline">
-                                <div class="timeline-item">
-                                    <div class="timeline-dot"></div>
-                                    <div class="timeline-content">
-                                        <h5>Ամիս 4. Ենթակառուցվածքներ և Ցանցեր</h5>
-                                        <p>Ցանցեր (OSI), Linux Ադմինիստրատորի Խորացված Դասընթաց:</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="timeline-dot"></div>
-                                    <div class="timeline-content">
-                                        <h5>Ամիս 5. Կոնտեյներացում</h5>
-                                        <p>Docker, Docker Compose, Kubernetes (K8s) հիմունքներ:</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="timeline-dot"></div>
-                                    <div class="timeline-content">
-                                        <h5>Ամիս 6. IaC և Ավտոմատացում</h5>
-                                        <p>Terraform, Ansible, AWS հիմունքներ:</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="timeline-dot"></div>
-                                    <div class="timeline-content">
-                                        <h5>Ամիս 7. CI/CD և Ավարտական Նախագիծ</h5>
-                                        <p>Jenkins, GitLab CI, GitHub Actions: Ավարտական Դիպլոմային Նախագիծ:</p>
-                                    </div>
-                                </div>
+                <!-- Unified Path -->
+                <div class="roadmap-unified gsap-fade-up">
+                    <div class="vertical-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h5>Ամիս 4. Տվյալների Բազաներ և API-ներ</h5>
+                                <p>Խորացված SQL, PostgreSQL, FastAPI հիմունքներ, RESTful API-ներ:</p>
                             </div>
                         </div>
-
-                        <!-- Backend Path -->
-                        <div class="split-pane" id="pane-backend">
-                            <div class="vertical-timeline">
-                                <div class="timeline-item">
-                                    <div class="timeline-dot"></div>
-                                    <div class="timeline-content">
-                                        <h5>Ամիս 4. Տվյալների Բազաներ</h5>
-                                        <p>Խորացված SQL, PostgreSQL, MongoDB, Redis:</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="timeline-dot"></div>
-                                    <div class="timeline-content">
-                                        <h5>Ամիս 5. API և Ֆրեյմվորքներ</h5>
-                                        <p>FastAPI, Flask, RESTful API-ներ, GraphQL հիմունքներ:</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="timeline-dot"></div>
-                                    <div class="timeline-content">
-                                        <h5>Ամիս 6. Խորացված Backend</h5>
-                                        <p>Django REST Framework, Միկրոսերվիսային ճարտարապետություն, Docker:</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="timeline-dot"></div>
-                                    <div class="timeline-content">
-                                        <h5>Ամիս 7. Ճարտարապետություն և Նախագիծ</h5>
-                                        <p>Համակարգի Նախագծում, Անվտանգություն: Ավարտական Դիպլոմային Նախագիծ:</p>
-                                    </div>
-                                </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h5>Ամիս 5. Խորացված Backend և Կոնտեյներացում</h5>
+                                <p>Django REST Framework, Docker հիմունքներ, համակարգային ճարտարապետություն:</p>
                             </div>
                         </div>
-
-                        <!-- ML/AI Path -->
-                        <div class="split-pane" id="pane-mlai">
-                            <div class="vertical-timeline">
-                                <div class="timeline-item">
-                                    <div class="timeline-dot"></div>
-                                    <div class="timeline-content">
-                                        <h5>Ամիս 4. Մաթեմատիկական Հիմք</h5>
-                                        <p>Գծային Հանրահաշիվ, Մատրիցներ, Հավանականություն, Վիճակագրություն, Թվերի
-                                            Տեսություն:</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="timeline-dot"></div>
-                                    <div class="timeline-content">
-                                        <h5>Ամիս 5. Դասական ML</h5>
-                                        <p>Scikit-Learn, Ռեգրեսիա, Դասակարգում, Կլաստերիզացիա:</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="timeline-dot"></div>
-                                    <div class="timeline-content">
-                                        <h5>Ամիս 6. Խորը Ուսուցում (Deep Learning)</h5>
-                                        <p>Նեյրոնային Ցանցեր, PyTorch, TensorFlow հիմունքներ:</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="timeline-dot"></div>
-                                    <div class="timeline-content">
-                                        <h5>Ամիս 7. Խորացված AI և Նախագիծ</h5>
-                                        <p>NLP, Համակարգչային Տեսողության հիմունքներ: Ավարտական Դիպլոմային Նախագիծ:</p>
-                                    </div>
-                                </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h5>Ամիս 6. Մեքենայական Ուսուցման (ML) Հիմունքներ</h5>
+                                <p>Գծային հանրահաշիվ, Scikit-Learn, Դասական ML ալգորիթմներ:</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h5>Ամիս 7. Ավտոմատացում և Ավարտական Նախագիծ</h5>
+                                <p>CI/CD (GitHub Actions), Ծրագրի ամբողջական ցիկլ, Դիպլոմային Նախագիծ:</p>
                             </div>
                         </div>
                     </div>
@@ -321,30 +239,36 @@
         <div class="container">
             <h2 class="section-title center gsap-fade-up"> Ավագ <span class="text-yellow">Մասնագետներ</span></h2>
 
-            <div class="instructors-grid">
-                <!-- Instructor 1 -->
-                <div class="instructor-card gsap-fade-up">
-                    <div class="instructor-image">
-                        <img src="images/zaqaryan.png" alt="Ալբերտ Զաքարյան" loading="lazy">
-                    </div>
-                    <div class="instructor-info">
-                        <h3 class="instructor-name">Ալբերտ Զաքարյան</h3>
-                        <p class="instructor-role">Python / Machine Learning Engineer</p>
-                        <p class="instructor-exp"><span class="text-yellow">8+ Տարվա</span> Փորձ Ոլորտում</p>
-                    </div>
-                </div>
+            <div class="instructors-container">
+                <button class="slider-arrow prev-arrow" aria-label="Previous"><i data-lucide="chevron-left"></i></button>
+                <div class="instructors-wrapper">
+                    <div class="instructors-grid">
+                        <!-- Instructor 1 -->
+                        <div class="instructor-card gsap-fade-up">
+                            <div class="instructor-image">
+                                <img src="images/zaqaryan.png" alt="Ալբերտ Զաքարյան" loading="lazy">
+                            </div>
+                            <div class="instructor-info">
+                                <h3 class="instructor-name">Ալբերտ Զաքարյան</h3>
+                                <p class="instructor-role">Python / Machine Learning Engineer</p>
+                                <p class="instructor-exp"><span class="text-yellow">8+ Տարվա</span> Փորձ Ոլորտում</p>
+                            </div>
+                        </div>
 
-                <!-- Instructor 2 -->
-                <div class="instructor-card gsap-fade-up" style="animation-delay: 0.1s;">
-                    <div class="instructor-image">
-                        <img src="images/asatryan.png" alt="Ալբերտ Ասատրյան" loading="lazy">
-                    </div>
-                    <div class="instructor-info">
-                        <h3 class="instructor-name">Ալբերտ Ասատրյան</h3>
-                        <p class="instructor-role">Python / Machine Learning Engineer</p>
-                        <p class="instructor-exp"><span class="text-yellow">8+ Տարվա</span> Փորձ Ոլորտում</p>
+                        <!-- Instructor 2 -->
+                        <div class="instructor-card gsap-fade-up" style="animation-delay: 0.1s;">
+                            <div class="instructor-image">
+                                <img src="images/asatryan.png" alt="Ալբերտ Ասատրյան" loading="lazy">
+                            </div>
+                            <div class="instructor-info">
+                                <h3 class="instructor-name">Ալբերտ Ասատրյան</h3>
+                                <p class="instructor-role">Python / Machine Learning Engineer</p>
+                                <p class="instructor-exp"><span class="text-yellow">8+ Տարվա</span> Փորձ Ոլորտում</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <button class="slider-arrow next-arrow" aria-label="Next"><i data-lucide="chevron-right"></i></button>
             </div>
         </div>
     </section>
@@ -404,9 +328,8 @@
                     </button>
                     <div class="accordion-content">
                         <div class="accordion-body">
-                            Լավագույն արդյունքներ ցուցաբերած շրջանավարտներին (խմբի լավագույն 15%-ին) երաշխավորվում են
-                            հարցազրույցներ և աշխատանքի ուղղակի առաջարկներ մեր գործընկեր տեխնոլոգիական ընկերությունների
-                            ցանցից: Պաշտոնները տատանվում են Junior-ից մինչև Mid-level՝ կախված Ձեր մասնագիտացումից և
+                            Բոլոր այն շրջանավարտներին, ովքեր կապահովեն բավարար առաջադիմություն, երաշխավորվում է
+                            աշխատանքի ուղղակի առաջարկ flex-flow.ai ընկերության կողմից: Պաշտոնները տատանվում են Junior-ից մինչև Mid-level՝ կախված Ձեր ցուցաբերած արդյունքներից և
                             ավարտական նախագծի որակից:
                         </div>
                     </div>
@@ -419,9 +342,17 @@
     <section id="registration" class="registration section-padding">
         <div class="container">
             <div class="registration-grid">
-                <div class="registration-form-box gsap-fade-up">
+                <div class="registration-badge-box gsap-fade-up">
+                    <div class="cert-badge">
+                        <img class="coat" src="./images/coat1.png" alt="Armenian coat">
+                        <h3 class="badge-title">Ծրագիրը երաշխավորված է ԿԳՄՍ նախարարության կողմից</h3>
+                        <p class="badge-text">Smart Code Academy-ի ուսանողները կարող են օգտվել սոցիալական ծախսի փոխհատուցումից՝ եկամտահարկի վերադարձի տեսքով՝ տարեկան մինչև 100,000 ՀՀ դրամի չափով՝ համաձայն ՀՀ օրենսդրությամբ սահմանված կարգի։</p>
+                    </div>
+                </div>
+
+                <div class="registration-form-box gsap-fade-up" style="animation-delay: 0.1s;">
                     <h2 class="section-title">Դիմել <span class="text-yellow">Հիմա</span></h2>
-                    <p class="form-subtitle">Կատարեք առաջին քայլը տեխնոլոգիական առաջնորդ դառնալու ճանապարհին:</p>
+                    <p class="form-subtitle">Կատարեք Ձեր կյանքի ամենաարդարացված ներդրումը:</p>
 
                     <form class="apply-form">
                         <div class="form-group">
@@ -436,16 +367,8 @@
                             <label for="email">Էլ. փոստ</label>
                             <input type="text" id="email" required>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-full btn-glow">Ուղարկել Հայտը</button>
+                        <button type="submit" class="btn btn-primary btn-full btn-glow magnetic-btn">Ուղարկել Հայտը</button>
                     </form>
-                </div>
-
-                <div class="registration-badge-box gsap-fade-up" style="animation-delay: 0.1s;">
-                    <div class="cert-badge">
-                        <img class="coat" src="./images/coat1.png" alt="Armenian coat">
-                        <h3 class="badge-title">Ծրագիրը երաշխավորված է ԿԳՄՍ նախարարության կողմից</h3>
-                        <p class="badge-text">Smart Code Academy-ի ուսանողները կարող են օգտվել սոցիալական ծախսի փոխհատուցումից՝ եկամտահարկի վերադարձի տեսքով՝ տարեկան մինչև 100,000 ՀՀ դրամի չափով՝ համաձայն ՀՀ օրենսդրությամբ սահմանված կարգի։</p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -459,8 +382,8 @@
                 <p class="copyright">© 2026 Smart Code Academy: Բոլոր իրավունքները պաշտպանված են:</p>
             </div>
             <div class="footer-contact">
-                <a href="tel:+37455123456"><i data-lucide="phone" style="width:16px;height:16px;vertical-align:middle;margin-right:6px;"></i>+374 (41) 43-53-44</a>
-                <a href="mailto:hello@smartcode.academy"><i data-lucide="mail" style="width:16px;height:16px;vertical-align:middle;margin-right:6px;"></i>support@smartcode.am</a>
+                <a href="tel:+37441435344"><i data-lucide="phone" style="width:16px;height:16px;vertical-align:middle;margin-right:6px;"></i>+374 (41) 43-53-44</a>
+                <a href="mailto:support@smartcode.am"><i data-lucide="mail" style="width:16px;height:16px;vertical-align:middle;margin-right:6px;"></i>support@smartcode.am</a>
             </div>
             <div class="footer-socials">
                 <a href="https://www.facebook.com/SmartCode.am/" target="_blank" aria-label="Facebook"><i data-lucide="facebook" class="fab fa-facebook-f"></i></a>
