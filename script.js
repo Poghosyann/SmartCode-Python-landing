@@ -308,19 +308,18 @@
 
             const innerGeometry = new THREE.IcosahedronGeometry(12, 8);
             const innerMaterial = new THREE.PointsMaterial({
-                size: 0.06,
+                size: 0.08,
                 color: 0xF59E0B,
                 transparent: true,
-                opacity: 0.8,
-                blending: THREE.AdditiveBlending,
+                opacity: 0.9,
             });
 
             const outerGeometry = new THREE.IcosahedronGeometry(14, 5);
             const outerMaterial = new THREE.PointsMaterial({
-                size: 0.08,
+                size: 0.1,
                 color: 0x4B5563,
                 transparent: true,
-                opacity: 0.5,
+                opacity: 0.2,
             });
 
             const particleGroup = new THREE.Group();
