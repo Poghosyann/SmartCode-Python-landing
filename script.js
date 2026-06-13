@@ -159,6 +159,22 @@
         }, { passive: true });
     }
 
+    function initScrollProgress() {
+        const bar = document.getElementById('scroll-progress');
+        if (!bar) return;
+
+        const update = () => {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+            bar.style.width = `${Math.min(100, Math.max(0, progress))}%`;
+        };
+
+        window.addEventListener('scroll', update, { passive: true });
+        window.addEventListener('resize', update);
+        update();
+    }
+
     function initAnchorScroll(lenis) {
         document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
             anchor.addEventListener('click', (event) => {
@@ -480,6 +496,7 @@
         initAnalytics();
         initIcons();
         initHeaderScroll();
+        initScrollProgress();
 
         const lenis = initLenis();
         initAnchorScroll(lenis);
