@@ -71,9 +71,9 @@ body::before {
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
     background: 
-        radial-gradient(circle at 15% 10%, rgba(245, 158, 11, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 15% 10%, rgba(245, 158, 11, 0.03) 0%, transparent 30%),
         radial-gradient(circle at 85% 30%, rgba(16, 185, 129, 0.03) 0%, transparent 40%),
-        radial-gradient(circle at 50% 80%, rgba(59, 130, 246, 0.04) 0%, transparent 50%);
+        radial-gradient(circle at 50% 80%, rgba(59, 130, 246, 0.08) 0%, transparent 50%);
     z-index: -1;
     pointer-events: none;
 }
@@ -396,10 +396,6 @@ a { text-decoration: none; color: inherit; }
 
 .feature-card:hover::after {
     transform: scaleX(1);
-}
-
-.feature-card.bento-card-main {
-    background: linear-gradient(155deg, rgba(245, 158, 11, 0.1) 0%, rgba(255, 255, 255, 0.6) 65%);
 }
 
 .feature-icon {
@@ -758,23 +754,12 @@ a { text-decoration: none; color: inherit; }
 /* Price Block */
 .price-block {
     background: linear-gradient(135deg, rgba(245, 158, 11, 0.08) 0%, rgba(245, 158, 11, 0.03) 100%);
-    border: 2px solid rgba(245, 158, 11, 0.35);
+    border: 1px solid rgba(245, 159, 11, 0.296);
     border-radius: var(--border-radius);
     padding: 2rem;
     text-align: center;
     position: relative;
     overflow: hidden;
-}
-
-.price-block::before {
-    content: '';
-    position: absolute;
-    top: -40%;
-    right: -20%;
-    width: 60%;
-    height: 80%;
-    background: radial-gradient(circle, rgba(245, 158, 11, 0.12) 0%, transparent 70%);
-    pointer-events: none;
 }
 
 .price-label {
